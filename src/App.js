@@ -9,27 +9,18 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="App" style={{display : "flex", flexDirection : "row"}}>
+    <div className="App" 
+      style={{
+        width : "100%", 
+        display : "flex", 
+        flexDirection : "row"
+      }}>
       <MainSideNav />
-      <div style={{height: '100%'}}>
+      <div style={{height: '100%', width: "100%"}}>
         <AboutMe id="about" />
         <Portfolio id="portfolio" />
         <Contact id="contact"/>
       </div>
-      {/* <header className="App-header" style={{flexGrow : 1}}>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }

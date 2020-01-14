@@ -31,7 +31,7 @@ class MainSideNav extends React.Component {
     }
 
     handleScroll = () => {
-        if (parseInt(window.scrollY) > 0.9*parseInt(window.innerHeight)) {
+        if (parseInt(window.scrollY) > 0.5*parseInt(window.innerHeight)) {
             this.setState({
                 showNav : true
             })
@@ -43,12 +43,6 @@ class MainSideNav extends React.Component {
     }
 
     render = () => (
-        <>
-        <SideNav fixed style={{
-            position : "relative", 
-            padding: 0, 
-            margin : 0
-        }} />
         <Transition in={this.state.showNav} timeout={duration}>
             {state => (
                 <SideNav 
@@ -92,7 +86,6 @@ class MainSideNav extends React.Component {
                 </SideNav>
             )}
         </Transition>
-        </>
     )
 }
 
