@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
 import NextSectionArrow from './components/NextSectionArrow'
+import GoToTop from './components/GoToTop'
 
 const pages = ['about', 'portfolio', 'contact']
 
@@ -46,7 +47,7 @@ class App extends React.Component {
         {this.state.currentSection < pages.length -1 ? 
           (<NextSectionArrow currentsection={pages[this.state.currentSection + 1]} />) 
         : 
-          (<></>)
+          (<GoToTop />)
         }
         
       </div>

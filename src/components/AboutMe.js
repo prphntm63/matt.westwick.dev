@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
 import {Transition} from 'react-transition-group'
+import { Select  } from 'react-materialize';
 
 const duration = 750;
 const defaultStyle = {
     transition: `opacity ${duration}ms ease-in-out, transform ${duration}ms ease-in-out`,
     opacity: 0,
     margin : 0,
-    textAlign : "left"
+    textAlign : "left",
+    display : "flex",
+    flexDirection : "row",
+    alignItems : "flex-end"
 }
 const pictureStyle ={
     transition: `opacity 500ms ease-in-out`,
@@ -85,13 +89,57 @@ const AboutMe = (props) => {
                     </Transition>
                     <Transition in={showSubtitle} timeout={duration}>
                         {state => (
-                            <h3 
+                            <div
                             style = {{
                                 ...defaultStyle,
                                 ...transitionStyles[state]
                             }}>
-                                About Me Subtitle
-                            </h3>
+                                <h4 
+                                style = {{
+                                    paddingBottom : "15px",
+                                    marginRight : "15px"
+                                }}>
+                                    About Me Subtitle
+                                </h4>
+                                <Select
+                                    onChange={function noRefCheck(){}}
+                                    options={{
+                                    classes: '',
+                                    dropdownOptions: {
+                                        alignment: 'left',
+                                        autoTrigger: true,
+                                        closeOnClick: true,
+                                        constrainWidth: true,
+                                        container: null,
+                                        coverTrigger: true,
+                                        hover: false,
+                                        inDuration: 150,
+                                        onCloseEnd: null,
+                                        onCloseStart: null,
+                                        onOpenEnd: null,
+                                        onOpenStart: null,
+                                        outDuration: 250
+                                    }
+                                    }}
+                                    value=""
+                                >
+                                    <option
+                                    disabled
+                                    value=""
+                                    >
+                                    Choose your option
+                                    </option>
+                                    <option value="1">
+                                    Option 1
+                                    </option>
+                                    <option value="2">
+                                    Option 2
+                                    </option>
+                                    <option value="3">
+                                    Option 3
+                                    </option>
+                                </Select>
+                            </div>
                         )}
                     </Transition>
                 </div>

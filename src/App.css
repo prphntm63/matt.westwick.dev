@@ -10,4 +10,22 @@ html {
   cursor: pointer;
 }
 
+.dropdown-content li > span {
+  font-size: 32px;
+}
+
+.select-wrapper input.select-dropdown {
+  font-size: 32px;
+}
+
+.sidenav .user-view>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-floating.gray {
+  background-color: gray !important;
+} 
+
 /* .user-view >  */
