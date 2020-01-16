@@ -70,7 +70,7 @@ const AboutMe = (props) => {
                                 ...pictureStyle,
                                 ...pictureTransitionStyle[state]
                             }}
-                            src ="https://homepages.cae.wisc.edu/~ece533/images/fruits.png"
+                            src ="https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0"
                             />                        
                         )}
                     </Transition>
@@ -83,7 +83,7 @@ const AboutMe = (props) => {
                                 ...defaultStyle,
                                 ...transitionStyles[state]
                             }}>
-                                About Me Page
+                                Matt Westwick
                             </h1>
                         )}
                     </Transition>
@@ -96,10 +96,10 @@ const AboutMe = (props) => {
                             }}>
                                 <h4 
                                 style = {{
-                                    paddingBottom : "15px",
+                                    paddingBottom : "14px",
                                     marginRight : "15px"
                                 }}>
-                                    About Me Subtitle
+                                    I'm a
                                 </h4>
                                 <Select
                                     onChange={function noRefCheck(){}}
@@ -127,16 +127,19 @@ const AboutMe = (props) => {
                                     disabled
                                     value=""
                                     >
-                                    Choose your option
+                                    Versatile Fit (select)
                                     </option>
                                     <option value="1">
-                                    Option 1
+                                    Full-Stack Developer
                                     </option>
                                     <option value="2">
-                                    Option 2
+                                    Mechanical Engineer
                                     </option>
                                     <option value="3">
-                                    Option 3
+                                    Industry Insider
+                                    </option>
+                                    <option value="4">
+                                    Problem Solver
                                     </option>
                                 </Select>
                             </div>

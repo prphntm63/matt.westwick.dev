@@ -4,6 +4,9 @@ html {
 
 .App {
   text-align: center;
+  background-image: url("https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .link-style:hover {
@@ -11,7 +14,8 @@ html {
 }
 
 .dropdown-content li > span {
-  font-size: 32px;
+  font-size: 28px;
+  color : black;
 }
 
 .select-wrapper input.select-dropdown {
@@ -27,5 +31,19 @@ html {
 .btn-floating.gray {
   background-color: gray !important;
 } 
+
+.card-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card-action > a {
+  margin-right : 0 !important;
+}
+
+.sidenav .user-view .background > img {
+  height : 100%;
+}
 
 /* .user-view >  */

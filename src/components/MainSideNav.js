@@ -62,10 +62,10 @@ class MainSideNav extends React.Component {
                 >
                     <div className="user-view">
                         <div className="background">
-                            <img src='https://placeimg.com/640/480/tech' />
+                            <img src='https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg'/>
                         </div>
                         <a href="#about">
-                            <img className="circle" src='https://homepages.cae.wisc.edu/~ece533/images/fruits.png' />
+                            <img className="circle" src='https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0' />
                         </a>
                         <a href="#about">
                             <span className="white-text name">Matt Westwick</span>
@@ -77,21 +77,21 @@ class MainSideNav extends React.Component {
             
                     <SideNavItem
                     href="#about"
-                    icon="cloud"
+                    icon="person"
                     >
                         About Me
                     </SideNavItem>
             
                     <SideNavItem
                     href="#portfolio"
-                    icon="cloud"
+                    icon="folder"
                     >
                         Portfolio
                     </SideNavItem>
             
                     <SideNavItem
                     href="#contact"
-                    icon="cloud"
+                    icon="email"
                     >
                         Contact
                     </SideNavItem>
