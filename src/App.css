@@ -20,6 +20,7 @@ html {
 
 .select-wrapper input.select-dropdown {
   font-size: 32px;
+  color : #607d8b
 }
 
 .sidenav .user-view>a {
@@ -29,7 +30,7 @@ html {
 }
 
 .btn-floating.gray {
-  background-color: gray !important;
+  background-color: #333 !important;
 } 
 
 .card-action {

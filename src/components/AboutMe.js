@@ -97,7 +97,8 @@ const AboutMe = (props) => {
                                 <h4 
                                 style = {{
                                     paddingBottom : "14px",
-                                    marginRight : "15px"
+                                    marginRight : "15px",
+                                    color : "#607d8b"
                                 }}>
                                     I'm a
                                 </h4>
