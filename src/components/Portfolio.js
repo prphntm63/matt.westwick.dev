@@ -50,11 +50,12 @@ const Portfolio = (props) => (
     <div 
     style={{
             width : "auto",
-            margin : 0,
+            margin : "25px 0px 25px 300px",
             padding : '15px',
-            marginLeft : '300px',
+
             flexGrow : 1,
             height : '100vh',
+            overflowY : "hidden"
         }}
     id={props.id}
     >

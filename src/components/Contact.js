@@ -11,7 +11,8 @@ const Contact = (props) => (
             height : '100vh',
             display : 'flex',
             justifyContent : 'center',
-            alignItems : 'center'
+            alignItems : 'center',
+            overflowY : "hidden"
         }}
     id={props.id}
     >

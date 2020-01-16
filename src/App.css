@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+body {
+  -ms-overflow-style: none;
+}
+
 .App {
   text-align: center;
   background-image: url("https://www.fg-a.com/wallpapers/2017-4-light-background-geo.jpg");
@@ -47,4 +57,3 @@ html {
   width : 100%;
 }
 
-/* .user-view >  */

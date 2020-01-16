@@ -58,6 +58,7 @@ const AboutMe = (props) => {
                     padding : '15px',
                     flexGrow : 1,
                     height : '100vh',
+                    overflowY : "hidden"
                 }}
             id={props.id}
         >
