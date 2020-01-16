@@ -14,7 +14,7 @@ html {
 }
 
 .dropdown-content li > span {
-  font-size: 28px;
+  font-size: 24px;
   color : black;
 }
 
@@ -44,7 +44,7 @@ html {
 }
 
 .sidenav .user-view .background > img {
-  height : 100%;
+  width : 100%;
 }
 
 /* .user-view >  */

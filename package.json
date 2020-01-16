@@ -44,5 +44,6 @@
     "plugins": [
       "@babel/plugin-proposal-class-properties"
     ]
-  }
+  },
+  "homepage" : "https://matt.westwick.dev"
 }

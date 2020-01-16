@@ -61,8 +61,8 @@ class MainSideNav extends React.Component {
                     }}
                 >
                     <div className="user-view">
-                        <div className="background">
-                            <img src='https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg'/>
+                        <div className="background" >
+                            <img src='/img/4396326756_fdcc06655b_c.jpg'/>
                         </div>
                         <a href="#about">
                             <img className="circle" src='https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0' />
