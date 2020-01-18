@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle, Icon  } from 'react-materialize';
+import { Card } from 'react-materialize';
 
 const portfolio = {
     "Headmaster" : {
@@ -67,18 +67,16 @@ const Portfolio = (props) => (
                 <Card
                 key={key}
                 actions={[
-                    <a key="1" href={portfolio[key].site}><i class="material-icons">language</i></a>,
-                    <a key="2" href={portfolio[key].repo}><i class="material-icons">code</i></a>
+                    <a key="1" href={portfolio[key].site}><i className="material-icons">language</i></a>,
+                    <a key="2" href={portfolio[key].repo}><i className="material-icons">code</i></a>
                 ]}
-                closeIcon={<Icon>close</Icon>}
                 // header={<CardTitle image="https://materializecss.com/images/sample-1.jpg">{portfolio[key].id}</CardTitle>}
                 
-                revealIcon={<Icon>more_vert</Icon>}
                 style={{width : "225px", height : "auto", margin : "25px", marginTop : "10px"}}
                 className="hoverable"
                 >
                     <div>
-                        <img src={portfolio[key].thumb} style={{width : "60px", height : "60px"}} />
+                        <img src={portfolio[key].thumb} style={{width : "60px", height : "60px"}} alt={portfolio[key]}/>
                         <span className="card-title">{portfolio[key].id}</span>
                     </div>
                     {portfolio[key].description}

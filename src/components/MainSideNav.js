@@ -4,7 +4,6 @@ import {Transition} from 'react-transition-group'
 
 const duration = 250;
 const defaultStyle = {
-    // transition: `opacity ${duration}ms ease-in-out`,
     transition: `opacity ${duration}ms ease-in-out,  height 2ms`,
     height : "0px",
     opacity: 0,
@@ -15,12 +14,6 @@ const transitionStyles = {
     exiting:  { opacity: 0, height : "100%", },
     exited:  { opacity: 0, height : "0px", },
 };
-// const transitionStyles = {
-//     entering: { opacity: 1 },
-//     entered:  { opacity: 1 },
-//     exiting:  { opacity: 0 },
-//     exited:  { opacity: 0 },
-// };
 
 class MainSideNav extends React.Component {
     constructor(props) {
@@ -62,10 +55,10 @@ class MainSideNav extends React.Component {
                 >
                     <div className="user-view">
                         <div className="background" >
-                            <img src='/img/4396326756_fdcc06655b_c.jpg'/>
+                            <img src='/img/4396326756_fdcc06655b_c.jpg' alt=""/>
                         </div>
                         <a href="#about">
-                            <img className="circle" src='https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0' />
+                            <img className="circle" src='https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0' alt="Headshot" />
                         </a>
                         <a href="#about">
                             <span className="white-text name">Matt Westwick</span>

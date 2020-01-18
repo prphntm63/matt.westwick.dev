@@ -72,6 +72,7 @@ const AboutMe = (props) => {
                                 ...pictureTransitionStyle[state]
                             }}
                             src ="https://media-exp1.licdn.com/dms/image/C4E03AQGC0-mrDICo6w/profile-displayphoto-shrink_100_100/0?e=1584576000&v=beta&t=U4SJ90Jwa42RG3waOE4H3iZdY19QP4su8vXrGK8mNy0"
+                            alt = "Headshot"
                             />                        
                         )}
                     </Transition>

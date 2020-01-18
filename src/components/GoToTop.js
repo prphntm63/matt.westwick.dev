@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Pulse } from 'react-motions';
 
 const GoToTop = (props) => (
